@@ -1,0 +1,15 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "forkify project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack"
+  },
+  "author": "Naveen",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.8"
+  }
+}
