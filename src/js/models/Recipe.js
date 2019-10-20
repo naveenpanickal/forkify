@@ -91,7 +91,6 @@ export default class Recipe {
     }
     updateServings(type){
         // Servings
-        console.log("Hello");
         const newServings = type === "dec" ? this.servings - 1 : this.servings + 1 ;
         // Ingredients
         this.ingredients.forEach(ing => {
@@ -99,7 +98,6 @@ export default class Recipe {
         });
 
         this.servings = newServings;
-        console.log(newServings);
     }
 
 }
