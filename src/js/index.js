@@ -16,6 +16,7 @@ import Likes from "./models/Likes";
  */
 const state = {};
 //window.state = state;
+
 /**SEARCH CONTROLLER */
 const controlSearch = async () => {
 //1. Get query from view
@@ -202,4 +203,4 @@ elements.recipe.addEventListener("click",e => {
         controlLike();
     }
 });
-window.l = new List(); 
+//window.l = new List(); 
