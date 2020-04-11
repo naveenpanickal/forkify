@@ -103,7 +103,7 @@ export const renderResults = (recipes, page = 1, resPerPage = 10) => {
   // render results of currente page
   const start = (page - 1) * resPerPage;
   const end = page * resPerPage;
-
+  console.log(recipes);
   recipes.slice(start, end).forEach(renderRecipe);
 
   // render pagination buttons
